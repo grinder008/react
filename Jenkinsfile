@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage("Checking"){
             steps{
-                git 'https://github.com/grinder008/react.git'
+                git branch: 'main', url: 'https://github.com/grinder008/react.git'
             }
             
         }
